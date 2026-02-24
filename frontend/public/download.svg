@@ -1,0 +1,21 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4C2"></stop>
+      <stop offset="25%" stop-color="#FFD966"></stop>
+      <stop offset="50%" stop-color="#FFB800"></stop>
+      <stop offset="75%" stop-color="#D49A00"></stop>
+      <stop offset="100%" stop-color="#8A6A00"></stop>
+    </linearGradient>
+    <radialGradient id="shine" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"></stop>
+      <stop offset="40%" stop-color="#FFF4C2" stop-opacity="0.4"></stop>
+      <stop offset="100%" stop-color="transparent"></stop>
+    </radialGradient>
+  </defs>
+
+  <circle cx="512" cy="512" r="460" fill="url(#goldGradient)"></circle>
+  <circle cx="420" cy="380" r="260" fill="url(#shine)"></circle>
+
+  <path d="M700 280H420C440 220 500 180 580 180H700V120H580C430 120 350 210 330 280H220V340H310C308 350 306 365 306 384C306 403 308 418 310 428H220V488H334C374 650 500 730 660 750V820H740V748C574 725 470 640 430 488H700V428H398C396 418 394 403 394 384C394 365 396 350 398 340H700V280Z" fill="white" opacity="0.9" stroke="#8A6A00" stroke-width="22" stroke-linejoin="round"></path>
+</svg>
